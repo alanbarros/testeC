@@ -78,14 +78,16 @@ int main(int argc, char *argv[]) {
     int indice = -1;
     int comp = -1;
     char matPos[20];
+    int count = 0;
 
-    while (ini < fim){
+    while (ini < fim && count == 0){
         if(fim - ini == 1){
             if(fim == meio){
                 meio = ini;
             } else {
                 meio = fim;
             }
+            count++;
         } else {
             meio = (ini + fim) / 2;
         }
