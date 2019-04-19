@@ -50,3 +50,14 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Coisa do Code Blocks
+*.layout
+*.depend
+bin/*
+obj/*
+
+# Coisa do VSCODE
+.disc/*
+
+.vscode/ipch/1453b6debf7d0c02/mmap_address.bin

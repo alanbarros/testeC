@@ -13,11 +13,11 @@
 
 int main(int argc, char *argv[]) {
 
-	strcpy(matriz[0][0], "45313126865");
+	strcpy(matriz[0][0], "13243546578");
 	strcpy(matriz[0][1], "Joao");
 	strcpy(matriz[1][0], "55555555555");
 	strcpy(matriz[1][1], "Alan");
-	strcpy(matriz[2][0], "41483454886");
+	strcpy(matriz[2][0], "01928374655");
 	strcpy(matriz[2][1], "Maria");
 	strcpy(matriz[3][0], "11111111111");
 	strcpy(matriz[3][1], "Josefa");
