@@ -54,10 +54,11 @@ dkms.conf
 # Coisa do Code Blocks
 *.layout
 *.depend
-bin/*
-obj/*
+./bin/*
+./obj/*
 
 # Coisa do VSCODE
-.disc/*
+.dist/*
 
 .vscode/ipch/1453b6debf7d0c02/mmap_address.bin
+*
